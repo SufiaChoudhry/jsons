@@ -13,30 +13,36 @@ let anobject = {
     ]
 }
 
-let kfcresturant = {
+let kfcResturant = {
     everyDayValue: {
-        riceAndSpice: "PKR 250"[
-            rice,
-            spices
-        ],
+        riceAndSpice: {
+            price: "PKR 250",
+            ingrediant: ["rice",
+                "spices"]
 
-        krunchBurger: "PKR 250"[
-            oneTwister,
-            oneFries,
-            drink,
-            colslaw,
-            onePcsChicken
-        ],
+        },
 
-        krunchBurgerWithDrink: "PKR 250"[
-            fourZingerStrips,
-            oneColeslaw,
-            fries,
-            drink,
-            oneDip,
-            onedinnerRoll
-        ],
-        
+        krunchBurger: {
+            price: "PKR 250",
+            ingrediant: [
+                " oneTwister",
+                "oneFries",
+                " drink",
+                "colslaw",
+                "onePcsChicken"]
+        },
+
+        krunchBurgerWithDrink: {
+            price: "PKR 250",
+            ingrdiant: [
+                "fourZingerStrips",
+                "oneColeslaw",
+                "fries",
+                " drink",
+                "oneDip",
+                " onedinnerRoll"]
+        },
+
         krunchCombo: "PKR 250",
         chickenAndChips: "PKR 250",
         chickenndRice: "PKR 250"
@@ -50,31 +56,198 @@ let kfcresturant = {
         twister: "PKR 440"
     },
     mealBox: {
-        twistyBox: "PKR 580",
-        bonelessBox: "PKR 580",
-        wOWBox: "PKR 580",
-        xtremeBox: "PKR 580",
-        crispyBox: "PKR 580"
+        twistyBox: {
+            price: "PKR 580",
+            ingrediant: [
+                " oneTwister",
+                "oneFries",
+                "oneDrink",
+                "oneColslaw",
+                " onepcChiken"
+            ]
+        },
+        bonelessBox: {
+            price: "PKR 580",
+            ingrdiant: [
+                " fourZingerStrip",
+                "oneColeslaw",
+                "fries",
+                "drink",
+                "oneDip",
+                "dinnerRoll"
+            ]
+        },
+        wowBox: {
+            price: "PKR 580",
+            ingrediant: [
+                "oneZingerBurger",
+                "onepcchiken",
+                "oneFries",
+                "onedrink",
+                "oneColeslaw"
+            ]
+        },
+        xtremeBox: {
+            price: "PKR 580",
+            ingrdiant: ["twoZinger",
+                "twopcHot",
+                "crispychiken",
+                "oneLargefries",
+                "twoDrinks"
+
+            ]
+        },
+        crispyBox:
+            {
+                price: "PKR 580",
+                ingrediant: [
+                    "fivepcsHot",
+                    "crispyChiken",
+                    "oneLargeFries",
+                    "twoDrinks"
+                ]
+            },
 
     },
     Sharing: {
-        valueBucket: "PKR 1,150",
-        familyBucket: "PKR 1,150",
-        familyFestivalOne: "PKR 1,150",
-        familyFestivalTwo: "PKR 1,150"
+        valueBucket: {
+            price: "PKR 1,150",
+            ingrediants: [
+                "ninepcsHot",
+                "crispyChicken"
+            ]
+        },
+
+        familyBucket: {
+            price: "PKR 1,150",
+            ingrediants: [
+                "ninepcsChiken",
+                "twocoleslaws",
+                "oneFriesBucket",
+                "oneDrink"
+
+            ]
+        },
+        familyFestivalOne:
+            {
+                price: "PKR 1,150",
+                ingredian: [
+                    "twoZingers",
+                    "twoCrunchBurgers",
+                    "fourpcsChicken",
+                    "twoDinnerRolls",
+                    "oneDrinkk"
+                ]
+
+            },
+        familyFestivalTwo:
+            {
+                price: "PKR 1,150",
+                ingrediants: [
+                    "fourZingersBurgers",
+                    "fourpcsChicken", ,
+                    "twoDinnerRoll",
+                    "oneDrink"
+                ]
+
+            },
+
     },
     Promotions: {
-        zingerTrio: "PKR 1,300",
-        lunchDeal: "PKR 1,500",
-        megaJackpotDeal: "PKR 1,600",
-        mingleBucket: "PKR 1,700",
-        xtremeBox: "PKR 1,800",
-        crispyBox: "PKR 2000"
+        zingerTrio:
+            {
+                price: "PKR 1,300",
+                ingrediant: [
+                    "threeZingers",
+                    "oneBucketFries",
+                    "ThreeRegularDrinks",
+
+                ]
+            },
+        lunchDeal:
+            {
+                price: "PKR 1,500",
+                ingrediant: [
+                    "onepcChiken",
+                    "oneArabianRice",
+                    "oneRegDrink",
+                    "vitnameseSauce"
+
+                ]
+            },
+        megaJackpotDeal: {
+            price: "PKR 1,600",
+            ingrediant: [
+                "oneMightyZinger",
+                "oneStacker",
+                "Twozingers",
+                "oneDrink"
+            ]
+        },
+        mingleBucket:
+            {
+                price: "PKR 1,700",
+                ingrediant: [
+                    "hotWings",
+                    "friesBuckets"
+
+                ]
+
+            },
+        xtremeBox: {
+            price: "PKR 1,800",
+            ingrediants: [
+                "twoZingers",
+                "TwopcsHot",
+                "crispyChicken",
+                "oneLargeFries"
+            ]
+        },
+        crispyBox:
+            {
+                price: "PKR 2000",
+                ingrediants: [
+                    "fivepcsHot",
+                    "crispyChicken",
+                    "oneLargeFries",
+                    "twoDrinks"
+
+                ]
+            },
     },
     Snacks: {
-        chickyMealOne: "PKR",
-        coleslaw: "PKR",
-        snackBucket: "PKR",
+        chickyMealOne:
+            {
+
+                price: "PKR",
+                ingrediants: [
+                    "onekrunchchicken",
+                    "oneChickyFries",
+                    "oneDrink/slice",
+                    "oneToy"
+                ]
+            },
+
+        coleslaw:
+            {
+                price: "PKR",
+                ingrediants: [
+                    "fourNuggets",
+                    "oneChickeyFries",
+                    "oneDrink/slice",
+                    "oneToy"
+                ]
+            },
+        snackBucket:
+            {
+                price: "PKR",
+                ingrediants: [
+                    "fourHotWings",
+                    "fourHotShots",
+                    "twoZingerstrip",
+                    "oneDip"
+                ]
+            },
         frenchFries: "PKR",
         frenchFriesBucket: "PKR",
         sixPcsNuggets: "PKR",
@@ -92,10 +265,46 @@ let kfcresturant = {
     },
 
     midnightDeals: {
-        midnightDealOne: "PKR",
-        midnigtDealTwo: "PKR",
-        midnightDealThree: "PKR",
-        midnightDealfour: "PKR"
+        midnightDealOne:
+            {
+                price: "PKR",
+                ingrediants: [
+                    "oneZingerBurger",
+                    "oneDrink"
+                ]
+            },
+        midnigtDealTwo:
+            {
+                price: "PKR",
+                ingrediants: [
+                    "twoZingerBurgers",
+                    "twoDrinks"
+                ]
+            },
+        midnightDealThree: {
+            price: "PKR",
+            ingrediants: [
+                "oneMightyZinger",
+                "OneRegularDrink"
+            ]
+        },
+        midnightDealfour: {
+            price: "PKR",
+            ingrediants: [
+                "tenpcsHotWings",
+                "oneRegularDrink"
+            ]
+        }
+
     }
 }
 
+let kfcResturantInformation = {
+    information: [
+        "AboutUS",
+        "MitaoBhook",
+        "PrivacyPolicy",
+    ]
+
+ 
+}
