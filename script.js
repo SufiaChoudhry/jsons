@@ -308,3 +308,74 @@ let kfcResturantInformation = {
 
  
 }
+
+
+
+
+
+
+// practice
+
+let suzuki ={
+brandName: "",
+founderName: "",
+foundingDate: "new Date ('')",
+headQuarter: "",
+engineers: "",
+branches: [
+
+    {
+        name: "",
+        city: "",
+        address: "",
+        contact: ""
+    },
+
+    {
+        name: "",
+        city: "",
+        address: "",
+        contact: ""
+    }
+]
+
+
+}
+// functione declaration/function defining
+
+function addTwoNumbers(numb1,numb2) {
+
+    return numb1 + numb2;
+}
+//  function call
+addTwoNumbers(4,9);
+
+function makeSquareOfNumber(numb) {
+ return numb * numb ;
+}
+
+makeSquareOfNumber(4,4);
+
+function getRemainder(numb1,numb2) {
+    return numb1 % numb2;
+}
+
+getRemainder(16 , 3);
+
+function subtraction(numb1 , numb2, numb3) {
+    return numb1- numb2- numb3;
+}
+
+subtraction(100 , 20, 10);
+
+function getCube (numb) {
+    return numb * numb *numb;
+}
+
+getCube (10);
+
+function greet(name) {
+ 
+    return "welcome, " + name + "!";
+}
+ greet(name);
